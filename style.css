@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
 }
+/* header section styles */
 .header-section{
     background-image: url(./images/banner/banner1.png);
     width: 100%;
@@ -9,9 +10,6 @@
     text-align:right;
     display: flex;
     justify-content: center;
-    
-    
-    
 }
 .header-text{
     width: 50%;
@@ -34,4 +32,22 @@
     background-color:orangered;
     padding: 10px;
     border-radius: 5px;
+}
+
+/* main section styles */
+.main-section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.main-img{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 70%;
+}
+.main-text{
+    text-align: justify;
+    padding-top: 300px;
+    width: 30%;
+    padding-right: 300px;
 }
