@@ -30,10 +30,12 @@
 }
 .primary{
     background-color:orangered;
+    font-size:20px;
     padding: 10px;
     border: 0;
     border-radius: 5px;
 }
+/* header section ends here */
 
 /* main section styles */
 .main-section{
@@ -62,6 +64,8 @@ ul li{
 .checkbox-img{
     width: 8%;
 }
+/* main section ends here */
+/* plans section starts here */
 .plans-section{
     margin: 300px 200px 100px 200px;
 }
@@ -81,3 +85,34 @@ ul li{
 .plans p{
     color:grey;
 }
+/* plans section ends here */
+
+/* footer section starts here */
+.footer-section{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    background-color: black;
+    color: white;
+}
+.footer-text{
+    width: 50%;
+}
+.footer-subscribe{
+    width: 50%;
+    font-size: 30px;
+    
+}
+.footer-subscribe,input{
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 20px;
+}
+.footer-subscribe, button{
+    color: white;
+    
+}
+
+/* footer section ends here */
