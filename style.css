@@ -2,6 +2,26 @@
     margin: 0;
     padding:0;
 }
+/* nav styles */
+.nav-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(222, 215, 215);
+    font-size: 20px;
+    padding: 20px 150px;
+    /* align-items: right; */
+}
+.menu{
+    /* text-align: center; */
+    /* text-align:justify; */
+    padding: 40px;
+    padding-top: 40px;
+    display: inline;
+    text-align:right;
+    /* display:flex; */
+    /* justify-content: center; */
+}
 /* header section styles */
 .header-section{
     background-image: url(./images/banner/banner1.png);
