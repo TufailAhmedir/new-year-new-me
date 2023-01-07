@@ -34,6 +34,7 @@
     padding: 10px;
     border: 0;
     border-radius: 5px;
+    color: white;
 }
 /* header section ends here */
 
@@ -82,37 +83,60 @@ ul li{
     width: 60%;
     padding-left: 20px;
 }
+
 .plans p{
     color:grey;
 }
 /* plans section ends here */
-
+/* banner section starts here */
+.banner-section{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    height: 30vh;
+    background-image:url(./images/watch.png), url(./images/gradient3.png);
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    padding:80px;
+}
+/* banner section ends here */
 /* footer section starts here */
 .footer-section{
     display: flex;
     justify-content: center;
     gap: 100px;
-    padding: 100px;
+    padding: 150px;
+    /* margin-left: 20px; */
     background-color: black;
     color: white;
 }
-.footer-text{
+.footer-texts{
     width: 50%;
+    align-items: left;
+}
+.footer-text-heading{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.footer-text-description{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.footer-text-icons{
+    width: 5%;
 }
 .footer-subscribe{
     width: 50%;
-    font-size: 30px;
+    font-size: 25px;
     
 }
-.footer-subscribe,input{
+.footer-input{
     border-radius: 5px;
     margin: 10px 0;
     padding: 10px;
     font-size: 20px;
 }
-.footer-subscribe, button{
-    color: white;
-    
-}
+
 
 /* footer section ends here */
