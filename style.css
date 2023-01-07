@@ -62,3 +62,22 @@ ul li{
 .checkbox-img{
     width: 8%;
 }
+.plans-section{
+    margin: 300px 200px 100px 200px;
+}
+.plans-heading{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.all-plan{
+    display:flex;
+    justify-content:space-between;
+}
+.plans img{
+    width: 60%;
+    padding-left: 20px;
+}
+.plans p{
+    color:grey;
+}
